@@ -1,2 +1,2 @@
 # Project
-backend-frontend
+backend
