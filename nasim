@@ -1,5 +1,5 @@
 load database
      from sql:/Users/dim/Downloads/database_name.db
-     into postgresql:/localhost/5432 with include drop, create tables where table name='student','class';
+     into postgresql:/localhost/5432 with include drop, create tables where table name='table1','table2';
   
 //including only table names like 'tablename1','tablename2';
