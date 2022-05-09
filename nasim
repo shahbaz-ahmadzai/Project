@@ -1,1 +1,5 @@
-including only table names like 'tablename1','tablename2';
+load database
+     from sql:/Users/dim/Downloads/database_name.db
+     into postgresql:/localhost/5432 with include drop, create tables where table name='student','class';
+  
+//including only table names like 'tablename1','tablename2';
